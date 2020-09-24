@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first Project - 'PORTFOLIO'</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+        <div class="fixed">
+          <div class="fixed_img">
+            <img src="img/fixedimg.jpg">
+          </div> 
+          <span class="name">Ye Byung Soo</span>
+          <span class="name_description">Server Developer & Django</span>
+          <ul class="header_lists">
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#what I learned">what I learned</a></li>
+            <li><a href="#HTML">HTML, CSS</a></li>
+            <li><a href="#HTML2">HTML, CSS 2nd</a></li>
+            <li><a href="#JAVASCRIPT">Javascript</a></li>
+            <li><a href="#PYTHON">Python</a></li>
+          </ul>
+        </div>
+        
+        <div id="profile" class="profile">
+          <img src="img/프로필.jpg">
+          <p>안녕하세요. </br> 
+            저는 개발 ~차 예병수입니다. </br> 
+            현재까지 HTML, CSS, Javascript, Python의 </br>
+            기본 개념을 공부하고 </br>
+            작은 프로젝트들을 실시했습니다</p>
+        </div>
+      </header>
+
+      <main>
+        
+          <section id="what I learned" class="first_section first_section_js">
+              <h1 class="first_section-h1">What I learned for 2 months</h1>
+              <div class="first_div">
+                <span class="click">Click here</span>
+                <i class="fas fa-hand-point-right fa-3x"></i>
+                <span class="html_section html_js"><a href="#HTML">HTML&CSS</a></span>
+                <span class="js_section js_js"><a href="#JAVASCRIPT">Vanilla Javascript</a></span>
+                <span class="py_section py_js"><a href="#PYTHON">Python</a></span>
+              </div>
+          </section>
+
+          <section class="second_section">
+            <h3 id="HTML">HTML & CSS</h3>
+            <div class="img_box">
+              <img src="kokoa.img/1.PNG">
+              <img src="kokoa.img/2.PNG">
+              <img src="kokoa.img/3.PNG">
+              <img src="kokoa.img/4.PNG">
+              <img src="kokoa.img/5.PNG">
+              <img src="kokoa.img/6.PNG">
+            </div>
+            <!--카카오 클론 코딩 스크린 샷 4~5개 & 가로스크롤 &-->
+            <div class="second_section_link">
+              <i class="fas fa-hand-point-right fa-3x"></i>
+              <a href="https://developsoo.github.io/kokoa-clone-2020/">kokoa-clone-2020</a>
+            </div>
+          </section>
+         
+          <section id="HTML2"class="third_section">
+              <!--챌린지 사진 2개-->
+              <div class="third_section_img">
+                <img src="kokoa.img/7.PNG">
+                <img src="kokoa.img/8.PNG">
+              </div>
+            <div class="description">
+              <p>한 달 간 카카오톡을 클론코딩하며 HTML과 CSS의 기초를 다졌고 중간 중간 작은 프로젝트를 겸하였습니다.</p>
+            </div>
+          </section>
+         
+          <section class="fourth_section">
+              <div class="video_box">
+                  <h3 id="JAVASCRIPT">Vanilla Javascript</h3>
+                <div class="video_description">
+                  <div class="video">
+                    <video muted autoplay loop src="video/momentumClone.mp4" type="video/mp4"></video>
+                  </div>
+                  <div class="fourth_description">
+                    <span> 1. 현재 위치</span> </br>
+                    <span> 2. 이름 저장 및 인사</span></br>
+                    <span> 3. To do list 저장</span></br>
+                    <span> 4. 시간</span>
+                  </div>
+                </div>
+                <div class="js_link">
+                  <i class="fas fa-hand-point-right fa-3x"></i>
+                  <a href="https://developsoo.github.io/momonton-clone-2020/">Momentum_Clone</a>
+                </div>
+              </div> 
+          </section>
+          
+           <section class="fifth_section">
+                <h3 id="PYTHON">Python & Flask</h3>
+                <div class="fifth_section_box">
+                  <div class="python_box">
+                    <div class="python_small_box">
+                      <video class="scrapped"autoplay muted controls src="python/pythonScrapper.mp4" type="mp4"></video>
+                      <div class="flask_des">
+                        <video class="flask" autoplay muted controls src="python/flask.mp4" type="mp4"></video>
+                        <div>전체 화면으로 바꾸어 보세요.</div>
+                      </div>
+                    </div>
+                    <!--동영상 a 를 클릭하면 동영상이 재생되는 것으로 하자-->
+
+                  </div>
+              </div>
+          </section>
+      </main>
+  </body>
+  <script
+  src="https://kit.fontawesome.com/6478f529f2.js"
+  crossorigin="anonymous"
+></script>
+<script src="portfolio_first.js"></script>
+<script src="portfolio_second.js"></script>
+<script src="portfolio_third.js"></script>
+<script src="portfolio_fourth.js"></script>
+<script src="portfolio_fifth.js"></script>
+</html>
