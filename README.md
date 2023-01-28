@@ -1,3 +1,7 @@
-# My First Project Portfolio
+# 생애 첫 코딩 포트폴리오
 
-I did it!
+아래 3가지 프로젝트를 완료한 후 지금까지 해본 경험을 정리하기 위한 간단한 포트폴리오 생성
+- 카카오 클론 (HTML, CSS)
+- 파이썬 스크래핑 웹사이트 (python, flask)
+- 모멘텀 클론 (Javascript)
+
